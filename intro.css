@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.container{
+    background-color: rgba(248, 228, 172, 0.774);
+}
+.con{
+    background-color:#46434e;
+    width: 1360px;
+   font-weight: bold;
+    font-size: 26px;
+    height: 50px;
+    position: sticky;
+}
+.con nav{
+    padding: 15px;
+}
+.con nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 3px 30px;
+    
+}
+.con nav li a{
+    text-decoration: none;
+    color: rgba(76, 243, 98, 0.767);
+    border-radius: 12px;
+}
+
+.con li a:hover:not(.active) {
+    background-color: rgb(116, 131, 219);
+}
+* {
+    box-sizing: border-box;
+  }
+  .column {
+    float: left;
+    width: 30%;
+    padding: 2px;
+    height: 280px; 
+    animation: mymove 5s infinite;
+    margin: 15px;
+    
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }  
+  .column span{
+    color: rgb(243, 241, 106);
+    background-color: blueviolet;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 3px;
+    border-radius: 10px;
+
+  }
+  .column ul{
+    padding-left: 35px;
+    font-size: 20px;
+   
+   
+  }
+  @keyframes mymove {
+  50% {box-shadow: 10px 20px 30px blue;}
+}
+ 

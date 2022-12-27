@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.container{
+    background-color: rgba(255, 247, 247, 0.938);
+}
+.con{
+    background-color:#00490f;
+    width: 1360px;
+   font-weight: bold;
+    font-size: 26px;
+    height: 60px;
+    position: sticky;
+}
+.con nav{
+    padding: 15px;
+}
+
+.con nav li{
+    list-style: none;
+    font-size: 35px;
+    padding: 3px 30px;
+    
+}
+.con nav li a{
+    text-decoration: none;
+    color: rgba(239, 250, 81, 0.767);
+    border-radius: 12px;
+}
+
+.con li a:hover:not(.active) {
+    background-color: rgb(116, 131, 219);
+}
+.con nav  li i{
+    text-decoration: none;
+    color: rgba(250, 20, 20, 0.767);
+    margin-right: 20px;
+    
+}
+ h2 {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(136, 255, 0);
+    position: relative;
+    animation-name: example;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    padding-left: 35px;
+    color: rgb(255, 255, 255);
+    padding-top: 8px;
+    border-radius: 20px;
+  }
+  
+  @keyframes example {
+    0%   {background-color:red; left:80px; top:0px;}
+    25%  {background-color:yellow; left:900px; top:0px;}
+    50%  {background-color:blue; left:1000px; top:35px;}
+    75%  {background-color:green; left:60px; top:35px;}
+    100% {background-color:rgb(255, 101, 247); left:80px; top:0px;}
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .column {
+    float: left;
+    width: 40%;
+    padding: 2px;
+    height: 280px; 
+    animation: mymove 5s infinite;
+    margin: 45px;
+    line-height: 25px;
+    color: black;
+    
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }  
+  .column span{
+    color: rgb(46, 66, 247);
+    background-color: rgb(173, 149, 39);
+    font-size: 24px;
+    font-weight: bold;
+    padding: 3px;
+    border-radius: 10px;
+   margin-left: 100px;
+
+  }
+  .column dt{
+    color: blue;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .column ul{
+    padding-left: 35px;
+    font-size: 20px;
+   
+   
+  }
+  @keyframes mymove {
+  50% {box-shadow: 10px 20px 30px rgb(238, 255, 0);}
+}
+ 

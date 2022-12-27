@@ -1,0 +1,81 @@
+ @import url('https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap'); 
+ @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color:rgb(255, 158, 158);
+    width: 435px;
+    font-family: 'Rubik Gemstones', cursive;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 30px;
+    
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 30px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(26, 2, 49);
+}
+.main{
+   /* background-color: rgb(115, 255, 0);*/
+    width: 100vw;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+ /*background-color: rgb(226, 43, 217);*/
+        height: 50vh;
+        width: 80vw;
+        margin: 144px auto;
+       display: flex;
+       justify-content: space-around;
+    }
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.devpic img{
+    height : 70vh;
+}
+.hello{
+    font-size: 30px;
+
+}
+.name{
+font-size: 50px;
+font-weight: bold;
+font-family: 'Fjalla One', sans-serif;
+}
+.about{
+    font-size: 40px;
+
+}
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: rgb(3, 13, 29);
+    background-color: rgb(215, 238, 230);
+    font-size:bold;
+    font-size: 21px;
+    margin: 0 5px;
+    cursor: pointer;
+
+}
+.buttons  :hover{
+    background-color: #021b3b;
+  color: white;
+
+}
+.buttons{
+    margin-top: 35px;
+}
